@@ -1,0 +1,53 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-shadow: 3px 1px crimson;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, button{
+    border-color: tomato;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: crimson;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: White;
+}
+
+input[type=text]{
+    background-color: crimson;
+    color: white;
+  }
+
+input[type=text]::placeholder{
+color: white;
+}
+
+input[type=text]:hover::placeholder{
+    transition-duration: 0.4s;
+    color: black;
+}
+
+.button:hover{background-color: aqua;
+    color: rgb(0, 0, 0);
+    transition-duration: 0.4s;
+}
+
+.btn:hover{
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+}
+
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+}
